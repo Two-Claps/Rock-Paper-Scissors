@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="styles/style.css">
+    <title>Rock Paper Scissors Game</title>
+</head>
+<body>
+    <header>
+        <h1>Rock Paper Scissors</h1>
+        <div class="separator"></div>
+        <div class="scoreboard-outer">
+            <div class="scoreboard-inner">
+                <span id="user-score" class="scores">0</span><span class="scores"> : </span><span id="computer-score" class="scores">0</span>
+            </div>
+            <div id="user-label" class="badge">YOU</div>
+            <div id="vertical-separator" class="badge"></div>
+            <div id="computer-label" class="badge">CPU</div>
+        </div>
+        <div class="result-box-outer">
+            <div class="result-box-inner">
+                <div class="result">
+                    <p>Ro Sham Bo. Shoot!</p>
+                </div>
+            </div> 
+        </div> 
+
+        <div class="choices">
+            <div id="r" class="choice">
+                <div class="pressed"></div>
+                <img src="images/rock.png" alt="Rock">
+                
+            </div>
+            <div id="p" class="choice">
+                <img src="images/paper.png" alt="Paper">
+            </div>
+            <div id="s" class="choice">
+                <img src="images/scissors.png" alt="Scissors">
+            </div>
+        </div>
+
+        <div id="reset-button" class="reset">
+            <img src="images/reset.png" alt="Reset">
+        </div>
+
+        <div class="separator"></div>
+
+    </header>
+    <script src="scripts/main.js" charset="utf-8"></script>
+</body>
+<footer>
+    <p>
+      &copy; 2020 by C.L.
+    </p>
+  </footer>
+</html>
